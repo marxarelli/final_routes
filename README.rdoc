@@ -5,3 +5,20 @@ This project rocks and uses MIT-LICENSE.
 
 FinalRoutes is currently licensed under the MIT free-software license. A copy
 of the terms is distributed as the file MIT-LICENSE.
+
+WARNING: This gem is slightly evil in its implementation. Use at your own
+risk. Or better yet, take a peak under the hood and decide for yourself.
+
+== Usage
+
+Use +final+ in your routes to create mappings that apply after all host
+application routes and all engine routes.
+
+    MyRailsApp::Application.routes.draw do
+      # ... application routes
+
+      final do
+        # some catch-all route
+        match ':slug' => 'pages#show'
+      end
+    end
