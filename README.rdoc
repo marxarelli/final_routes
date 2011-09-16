@@ -1,0 +1,7 @@
+= FinalRoutes
+
+Adds support to Rails for final routes.
+This project rocks and uses MIT-LICENSE.
+
+FinalRoutes is currently licensed under the MIT free-software license. A copy
+of the terms is distributed as the file MIT-LICENSE.
