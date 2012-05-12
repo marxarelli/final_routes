@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.authors = ["Daniel Duvall"]
   s.email = ["dan@mutual.io"]
+  s.homepage = 'https://github.com/marxarelli/final_routes'
 
   s.files = Dir["{lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.rdoc"]
   s.require_paths = ["lib"]
